@@ -11,8 +11,6 @@
 
 :root {
   --black: black;
-  --dark: rgb(29, 28, 28);
-  --grey: #ccc;
   --of: #ccc;
   --white: white;
   --red: #e41726;
@@ -179,6 +177,6 @@ width: 11.5rem;
 }
 
 #darkMode:hover{
-  color: var(--dark);
+  color: var(--of);
 }
 
