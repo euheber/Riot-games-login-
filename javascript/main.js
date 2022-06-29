@@ -11,11 +11,11 @@ lightsBtn.addEventListener('click', ()=> {
     h1.style.color = 'white'
     label.style.color = 'white'
     r.style.setProperty('--light', 'grey');
-    r.style.setProperty('--dark', '#ffbb00');
+    r.style.setProperty('--of', '#ffbb00');
    } else { 
     h1.style.color = 'black'
     label.style.color = 'black'
     r.style.setProperty('--light', '#ffbb00');
-    r.style.setProperty('--dark', 'black');
+    r.style.setProperty('--of', 'grey');
    }
 })
