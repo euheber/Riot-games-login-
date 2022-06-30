@@ -43,4 +43,4 @@ function change(){
    background.style.backgroundSize = 'cover'
 }
 
-setInterval(change, 15000)
+setInterval(change, 25000)
