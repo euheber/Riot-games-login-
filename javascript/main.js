@@ -21,6 +21,15 @@ lightsBtn.addEventListener('click', ()=> {
    }
 })
 
+
+closeBtn.addEventListener('click', ()=>  {
+     modal.classList.add('of')
+})
+
+submit.addEventListener('click', () => { 
+    modal.classList.remove('of')
+})
+
 const bgs = [
     '../images/valorant.jpg',
     '../images/lor.jpg',
@@ -30,8 +39,8 @@ const bgs = [
 function change(){ 
    const rand =  Math.floor(Math.random() * 3 + 0)
    console.log(rand);
-   body.style.background = `url(${bgs[rand]})`
-   body.style.backgroundSize = 'cover'
+   background.style.backgroundImage = `url(${bgs[rand]})`
+   background.style.backgroundSize = 'cover'
 }
 
-setInterval(change, 30000)
+setInterval(change, 5000)
