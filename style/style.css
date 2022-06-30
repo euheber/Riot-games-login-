@@ -22,11 +22,11 @@
 }
 body{
   display: flex;
-  background-color: transparent;
+  background-color: var(--blue);
 }
 
 #background {
-  background-image: url('../images/lol.jpg');
+  background-image: url("../images/lol.jpg");
   background-size: cover;
   background-position: center;
   transition: 7s ease;

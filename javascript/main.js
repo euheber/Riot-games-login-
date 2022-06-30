@@ -31,9 +31,9 @@ submit.addEventListener('click', () => {
 })
 
 const bgs = [
-    '../images/valorant.jpg',
-    '../images/lor.jpg',
-    '../images/lol.jpg'
+    "../images/valorant.jpg",
+    "../images/lor.jpg",
+    "../images/lol.jpg"
 ]
 
 function change(){ 
