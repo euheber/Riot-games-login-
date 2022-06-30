@@ -22,9 +22,9 @@
 }
 
 body {
-  background: url(../images/valorant.jpg);
+  background: url(../images/lol.jpg);
   background-size: cover;
-  transition: 30s ease;
+  transition: 5s ease;
 }
 
 h1, label{ 
@@ -180,4 +180,3 @@ width: 11.5rem;
 #darkMode:hover{
   color: var(--of);
 }
-

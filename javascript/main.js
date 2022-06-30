@@ -2,7 +2,8 @@ const lightsBtn = document.querySelector('#darkMode')
 const loginBody = document.querySelector('#login-body')
 const h1 = document.querySelector('h1')
 const label = document.querySelector('label')
-const r = document.querySelector(':root')
+const root = document.querySelector(':root')
+const body = document.querySelector('body')
 
 lightsBtn.addEventListener('click', ()=> { 
     loginBody.classList.toggle('on')
@@ -10,12 +11,27 @@ lightsBtn.addEventListener('click', ()=> {
    if(loginBody.classList.contains('on')){
     h1.style.color = 'white'
     label.style.color = 'white'
-    r.style.setProperty('--light', 'grey');
-    r.style.setProperty('--of', '#ffbb00');
+    root.style.setProperty('--light', 'grey');
+    root.style.setProperty('--of', '#ffbb00');
    } else { 
     h1.style.color = 'black'
     label.style.color = 'black'
-    r.style.setProperty('--light', '#ffbb00');
-    r.style.setProperty('--of', 'grey');
+    root.style.setProperty('--light', '#ffbb00');
+    root.style.setProperty('--of', 'grey');
    }
 })
+
+const bgs = [
+    '../images/valorant.jpg',
+    '../images/lor.jpg',
+    '../images/lol.jpg'
+]
+
+function change(){ 
+   const rand =  Math.floor(Math.random() * 3 + 0)
+   
+   body.style.background = `url(${bgs[rand]})`
+   body.style.backgroundSize = 'cover'
+}
+
+setInterval(change, 10000)
