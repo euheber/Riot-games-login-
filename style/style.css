@@ -24,7 +24,7 @@
 body {
   background: url(../images/lol.jpg);
   background-size: cover;
-  transition: 5s ease;
+  transition: 7s ease;
 }
 
 h1, label{ 

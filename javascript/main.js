@@ -29,9 +29,9 @@ const bgs = [
 
 function change(){ 
    const rand =  Math.floor(Math.random() * 3 + 0)
-   
+   console.log(rand);
    body.style.background = `url(${bgs[rand]})`
    body.style.backgroundSize = 'cover'
 }
 
-setInterval(change, 10000)
+setInterval(change, 30000)
