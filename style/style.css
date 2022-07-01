@@ -23,6 +23,10 @@
 body{
   display: flex;
   background-color: var(--blue);
+  background-image: url("../images/lol.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 3s ease;
 }
 
 #background {
