@@ -29,7 +29,7 @@ body{
   background-image: url("../images/lol.jpg");
   background-size: cover;
   background-position: center;
-  transition: 1.2s ease;
+  transition: .5s ease;
   width: 100vw;
   height: 100vh;
 }
@@ -180,7 +180,7 @@ width: 11.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--light);
-  transition: .5s ease;
+  transition: .3s ease;
   background-color: transparent;
 }
 
@@ -198,6 +198,12 @@ width: 11.5rem;
   top: 3rem;
   right: 3rem;
   cursor: pointer;
+  transition: .8s ease;
+}
+
+#closeBtn:hover{
+  color: var(--blue);
+  transform: rotate(90deg);
 }
 
 #modal{ 
@@ -219,7 +225,7 @@ width: 11.5rem;
 }
 
 #modal a:hover{
-   color: var(--grey);
+   color: var(--blue);
 }
 
 #modal.of{

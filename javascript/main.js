@@ -39,6 +39,7 @@ const bgs = [
 function change(){ 
    const rand =  Math.floor(Math.random() * 3 + 0)
    const bg = `url(${bgs[rand]})`
+   console.log(bg);
    background.style.backgroundImage = bg
    background.style.backgroundSize = 'cover'
 }
