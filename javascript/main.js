@@ -40,8 +40,8 @@ function change(){
    const rand =  Math.floor(Math.random() * 3 + 0)
    const bg = `url(${bgs[rand]})`
    console.log(bg);
-   body.style.backgroundImage = bg
-   body.style.backgroundSize = 'cover'
+   background.style.backgroundImage = bg
+   background.style.backgroundSize = 'cover'
 }
 
 setInterval(change, 25000)
